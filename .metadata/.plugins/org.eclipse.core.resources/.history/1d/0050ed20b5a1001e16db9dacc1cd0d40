@@ -1,0 +1,26 @@
+package com.example.demo;
+
+public class LoadTestResult {
+
+private int successes;
+private int failures;
+private double minRequestTime;
+private double maxRequestTime;
+private double meanRequestTime;
+public Object getSuccesses() {
+	// TODO Auto-generated method stub
+	return null;
+}
+public Object getFailures() {
+	// TODO Auto-generated method stub
+	return null;
+}
+public Object getFailures() {
+	// TODO Auto-generated method stub
+	return null;
+}
+
+// Construtor, getters e toString() aqui
+
+// Implemente métodos para calcular estatísticas e atualizar os resultados
+}

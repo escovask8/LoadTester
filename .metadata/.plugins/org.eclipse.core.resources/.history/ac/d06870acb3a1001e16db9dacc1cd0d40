@@ -1,0 +1,12 @@
+package com.example.demo;
+
+public class LoadTestConfiguration {
+
+
+    @Value("${loadtest.default-requests:10}")
+    private int defaultRequests;
+
+    public int getDefaultRequests() {
+        return defaultRequests;
+    }
+}
